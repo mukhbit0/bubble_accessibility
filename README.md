@@ -34,7 +34,7 @@ Works on **all Android versions ≥ 5.0** (API 21+) via two independent permissi
 
 ```yaml
 dependencies:
-  bubble_accessibility: ^0.1.0
+  bubble_accessibility: ^0.1.1
 ```
 
 That's it. No Android file edits, no `AndroidManifest.xml` changes, no Kotlin.

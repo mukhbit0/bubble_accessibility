@@ -1,4 +1,4 @@
-group 'com.example.bubble_accessibility'
+group 'com.ionicerrrrscode.bubble_accessibility'
 version '1.0'
 
 buildscript {
@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.example.bubble_accessibility'
+    namespace 'com.ionicerrrrscode.bubble_accessibility'
     compileSdkVersion 34
 
     compileOptions {

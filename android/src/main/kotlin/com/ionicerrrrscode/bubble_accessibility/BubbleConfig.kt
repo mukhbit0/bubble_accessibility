@@ -1,4 +1,4 @@
-package com.example.bubble_accessibility
+package com.ionicerrrrscode.bubble_accessibility
 
 import android.graphics.Color
 

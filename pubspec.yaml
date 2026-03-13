@@ -1,13 +1,12 @@
 name: bubble_accessibility
 description: >-
-  A Flutter plugin that shows a draggable floating bubble when your app is
-  backgrounded or killed. Supports Accessibility Service and Foreground Service
-  modes, notification payload streaming, full style customisation, and custom
-  tap intents — with zero host-app boilerplate.
-version: 0.1.0
-homepage: https://github.com/your-username/bubble_accessibility
-repository: https://github.com/your-username/bubble_accessibility
-issue_tracker: https://github.com/your-username/bubble_accessibility/issues
+  Floating bubble overlay for Android apps. Auto-shows when backgrounded or
+  killed, streams notification payloads to Dart, supports accessibility and
+  foreground-service modes.
+version: 0.1.1
+homepage: https://github.com/mukhbit0/bubble_accessibility
+repository: https://github.com/mukhbit0/bubble_accessibility
+issue_tracker: https://github.com/mukhbit0/bubble_accessibility/issues
 
 topics:
   - overlay
@@ -33,5 +32,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.bubble_accessibility
+        package: com.ionicerrrrscode.bubble_accessibility
         pluginClass: BubbleAccessibilityPlugin
