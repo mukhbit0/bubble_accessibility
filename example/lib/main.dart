@@ -158,14 +158,14 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             child: Row(
               children: [
-                FilledButton(
+                const FilledButton(
                   onPressed: BubbleAccessibility.show,
-                  child: const Text('Show bubble'),
+                  child: Text('Show bubble'),
                 ),
                 const SizedBox(width: 12),
-                OutlinedButton(
+                const OutlinedButton(
                   onPressed: BubbleAccessibility.hide,
-                  child: const Text('Hide bubble'),
+                  child: Text('Hide bubble'),
                 ),
                 const SizedBox(width: 12),
                 OutlinedButton(
