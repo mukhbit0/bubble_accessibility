@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <FrameLayout
+        android:id="@+id/bubble_main"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/bubble_accessibility_background"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/bubble_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/bubble_close"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/bubble_accessibility_close_bg"
+        android:padding="4dp"
+        android:src="@drawable/bubble_accessibility_ic_close"
+        android:elevation="10dp"
+        android:contentDescription="Close" />
+
+</FrameLayout>

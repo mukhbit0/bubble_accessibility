@@ -1,0 +1,39 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+build/
+*.iml
+
+# Android
+android/.gradle/
+android/build/
+android/local.properties
+android/captures/
+*.class
+*.dex
+*.ap_
+*.aab
+*.apk
+local.properties
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Example app specific
+example/.dart_tool/
+example/build/
+example/pubspec.lock
+example/android/.gradle/
+example/android/local.properties
